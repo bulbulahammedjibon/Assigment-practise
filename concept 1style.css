@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+     /* background: linear-gradient(15deg,red , blueviolet,blue); */
+ }
+
+ h1 {
+     color: #64e20f;
+ }
+
+ .hero {
+     background-image: url('../Images/cow.jpg');
+     /* background-image: url('../Images/icons8-home-50.png'); */
+     background-position: bottom center;
+     height: 100vh;
+     background-size: cover;
+
+ }
+
+ .hero h1 {
+     color: white;
+     font-size: 100px;
+     text-align: center;
+     font-weight: 900;
+     padding-top: 60px;
+     letter-spacing: 45px;
+ }
+
+ .article {
+     width: 80%;
+     /* margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto; */
+     margin: 60px auto;
+     background-color: aqua;
+     padding: 60px;
+
+     border-width: 15px;
+     border-color: blueviolet;
+     border-style: solid;
+
+
+ }
+
+ .article h2 , .cow-type{
+     text-align: center;
+     border-color: coral;
+     border-width: 2px;
+     border-style: solid;
+     border-bottom: none;
+     border-right-color: aquamarine;
+     margin-bottom: 35px;
+     padding-top: 25px;
+     padding-left: 0;
+ }
+
+ .article p {
+     font-size: 28px;
+     line-height: 2em;
+
+ }
+
+ .article p .imp {
+     font-size: 2em;
+     background-color: crimson;
+     width: 700px;
+     height: 500px;
+     
+    
+
+ }
+
+#cow-type{
+    display: flex;
+    
+}
+.cow-images{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cow-images div{
+    min-width: 30px;
+}
+.cow-images img{
+    width: 30%;
+}

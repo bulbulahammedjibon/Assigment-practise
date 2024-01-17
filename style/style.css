@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; 
+}*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 600px;
+    /* width: auto;
+   
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 97px;
+    /* background-size: 1056px 480px; */
+    align-items: center; */
+
+}
+
+.contant{
+     background-image: url('../resources/Banner\ Image.png');
+}
+
+.banner-text {
+    text-align: center;
+    color: #FFF;
+    padding: 145px;
+}
+
+.banner-text h3 {
+    padding-bottom: 13px;
+    padding-left: 188px auto;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.banner-text h1 {
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+.discoutnt {
+    text-align: center;
+    font-family: Inter;
+    width: 80%;
+
+}
+
+.discount-text h1 {
+    color: #F00;
+    font-size: 73px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    font-weight: 700;
+
+
+}
+
+.discount-text p {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-text h2 {
+    margin-top: 13px;
+    color: #070211;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.discount-image {
+    /* width: 702.9px;
+    height: 400px; */
+    background-size: 700px 400px;
+    margin-bottom: 110px;
+}
+
+.party {
+    width: 80%;
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+
+    background-repeat: no-repeat;
+
+}
+
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    width: 600px;
+    padding: 150px 460px 0 10px;
+}
+
+.party-text h4 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
+    width: 690px;
+    padding: 50px 450px 0px 100px;
+    font-family: Inter;
+
+}
+
+.party-text h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    padding: 40px 140px 0 170px;
+}
+
+.place-time {
+    text-align: center;
+}
+
+.place-time h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+
+}
+
+.place-time {
+    padding-top: 100px;
+
+}
+
+.place-time #space {
+    padding-bottom: 48px;
+}
+
+.place-time button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.containt-3 {
+    width: 80%;
+    margin-top: 120px;
+    /* width: 1070px;
+    height: 392px;
+    flex-shrink: 0; */
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    /* fill:  */
+    /* background-color: 
+    linear-gradient(180deg, rgba(208, 12, 12, 0.1) 0%, rgba(236, 17, 17, 0) 100%);
+} */
+    background-image: linear-gradient(180deg, rgba(208, 12, 12, 0.1) 0%, rgba(236, 17, 17, 0) 100%);
+}
+
+.holyday-sell-text {
+    text-align: center;
+}
+
+.holyday-sell-text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.holyday-sell-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#sale {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyday-sell-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 1068px;
+}
+
+.holyday-sell-image {
+    width: 80%;
+    /* align-items: center; */
+
+
+}
+
+#box {
+    width: 550px;
+
+}
+
+#dis {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;}
+
+#sop {
+    width: 429px;
+    height: 433px;
+    background-position: bottom right;
+    padding-left: 150px;
+
+}
+
+.holyday-sell-image-shoping {
+    width: 80% auto;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
