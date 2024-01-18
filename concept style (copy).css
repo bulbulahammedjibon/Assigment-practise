@@ -44,6 +44,7 @@ header {
     width: 75%;
     max-width: 1440;
     margin: 0 auto;
+    background-color: #e76884;
 
 }
 
@@ -198,6 +199,16 @@ font-weight: 600;
 
 .newsletter-main{
     background-image: url('flower/Asset/Rectangle9.png');
-    background-size: contain;
+  
     padding: 122px 0;
+}
+.newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+
+}
+
+.newsletter form input{
+   flex-grow: 1;
 }

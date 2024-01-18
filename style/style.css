@@ -304,8 +304,9 @@ font-family: 'Merriweather', serif;
 }
 
 .containt-4 {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-bottom: 120px;
+    margin-top: 120px;
 }
 
 .contant-5 .portfolio-text h4 {
@@ -360,10 +361,11 @@ font-family: 'Merriweather', serif;
     gap: 0 24px;
 }
 
-.contant-6{
+.contant-6 {
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-margin: 120px 0;
+    
+    background: rgba(221, 10, 10, 0.05);
+    margin: 120px 0;
 }
 
 .contant-6 .subscribe-image {
@@ -371,8 +373,8 @@ margin: 120px 0;
     width: 150px;
     height: 150px;
     flex-shrink: 0;
-    padding: 80px 500px  35px 500px;
-   
+    padding: 80px 500px 35px 500px;
+
 
 }
 
@@ -398,31 +400,152 @@ margin: 120px 0;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 48px;
-   
+
     /* 160% */
 }
 
 .contant-6 form input {
-    width: 418px;
-    height: 59px;
-    flex-shrink: 0;
-    border-radius: 50px;
-    background: #FFF;
-    margin-left: 360px;
+    width: 640px;
+    flex-grow: 1;
     border: none;
-    padding: 20px;
-     margin-bottom: 80px;
+    border-radius: 50px 0 0px 50px;
+    padding: 15px;
+    font-size: 20px;
+outline: none;
+
+    
+    background: #FFF;
+    /*  
+   
+    
+    margin-bottom: 80px;
+    margin-right: 0; */
 }
 
-.contant-6 button {
-     width: 210px;
-height: 72px;
-flex-shrink: 0;
-border-radius: 0px 50px 50px 0px;
-background: #F00;  
-}
+  
+ 
 
-.containt-6 form {
+.contant-6 form {
+    width: 640px;
     display: flex;
-    margin: 80px auto;
+   
+    margin: 20px auto;
+    padding-bottom: 80px;
 }
+
+.contant-6 form input{
+     
+}
+
+
+button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+
+    /* border-radius: 8px;
+    background: #E55473; */
+    /* color: white;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+   
+    cursor: pointer; */
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 15px 28px;
+
+}
+
+footer{
+    background: #070211;
+    height: 750px;
+}
+
+.foot-desian-1{
+    
+    padding-top: 120px;
+    padding-bottom: 98px;
+}
+
+.foot-desian-1 .adress p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    width: 375px;
+    height: 80px;
+}
+.foot-desian-1 .contact p ,.website p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+    /* text-align: right; */
+
+}
+.foot-desian-1{
+    display: flex;
+
+}
+
+.foot-desian-1 .adress{
+    margin-left: 140px;
+}
+
+.foot-desian-1 .website{
+    margin-right: 70px;
+}
+
+.foot-desian-2 .social-icon{
+    width: 20%;
+    display: flex;
+    padding: 48px 0;
+    
+}
+
+.foot-desian-3 p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.foot-desian-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 90px 0;
+    
+}
+
+.foot-desian-3 .subs{
+   margin-right: 140px;
+}
+
+.foot-desian-3 .right{
+ margin-left: 140px;
+}
+.line-1,.line-2{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    text-align: left;
+    width: 1075px;
+    margin: 20px auto ; 
+     
+}
+
+
