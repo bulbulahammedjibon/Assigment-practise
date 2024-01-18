@@ -284,6 +284,7 @@ font-family: 'Merriweather', serif;
 .holyday-sell-image-box #dis {
     width: 206.841px;
     height: 206.841px;
+     
 
 }
 
@@ -291,7 +292,8 @@ font-family: 'Merriweather', serif;
     width: 429px;
     height: 433px;
     background-position: bottom right;
-    padding-left: 150px;
+    /* padding-left: 160px; */
+    margin-left: 185px;
 
 }
 
@@ -363,7 +365,7 @@ font-family: 'Merriweather', serif;
 
 .contant-6 {
     border-radius: 16px;
-    
+
     background: rgba(221, 10, 10, 0.05);
     margin: 120px 0;
 }
@@ -411,9 +413,9 @@ font-family: 'Merriweather', serif;
     border-radius: 50px 0 0px 50px;
     padding: 15px;
     font-size: 20px;
-outline: none;
+    outline: none;
 
-    
+
     background: #FFF;
     /*  
    
@@ -422,20 +424,18 @@ outline: none;
     margin-right: 0; */
 }
 
-  
- 
+
+
 
 .contant-6 form {
     width: 640px;
     display: flex;
-   
+
     margin: 20px auto;
     padding-bottom: 80px;
 }
 
-.contant-6 form input{
-     
-}
+.contant-6 form input {}
 
 
 button {
@@ -464,88 +464,93 @@ button {
 
 }
 
-footer{
+footer {
     background: #070211;
     height: 750px;
 }
 
-.foot-desian-1{
-    
+.foot-desian-1 {
+
     padding-top: 120px;
     padding-bottom: 98px;
 }
 
-.foot-desian-1 .adress p{
+.foot-desian-1 .adress p {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 166.667% */
+    line-height: 40px;
+    /* 166.667% */
     width: 375px;
     height: 80px;
 }
-.foot-desian-1 .contact p ,.website p{
+
+.foot-desian-1 .contact p,
+.website p {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 166.667% */
+    line-height: 40px;
+    /* 166.667% */
     /* text-align: right; */
 
 }
-.foot-desian-1{
+
+.foot-desian-1 {
     display: flex;
 
 }
 
-.foot-desian-1 .adress{
+.foot-desian-1 .adress {
     margin-left: 140px;
 }
 
-.foot-desian-1 .website{
+.foot-desian-1 .website {
     margin-right: 70px;
 }
 
-.foot-desian-2 .social-icon{
+.foot-desian-2 .social-icon {
     width: 20%;
     display: flex;
     padding: 48px 0;
-    
+
 }
 
-.foot-desian-3 p{
+.foot-desian-3 p {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
 
-.foot-desian-3{
+.foot-desian-3 {
     display: flex;
     justify-content: space-between;
     padding: 50px 0 90px 0;
-    
+
 }
 
-.foot-desian-3 .subs{
-   margin-right: 140px;
+.foot-desian-3 .subs {
+    margin-right: 140px;
 }
 
-.foot-desian-3 .right{
- margin-left: 140px;
+.foot-desian-3 .right {
+    margin-left: 140px;
 }
-.line-1,.line-2{
+
+.line-1,
+.line-2 {
     background: rgba(255, 255, 255, 0.15);
     height: 1px;
     text-align: left;
     width: 1075px;
-    margin: 20px auto ; 
-     
+    margin: 20px auto;
+
 }
-
-
